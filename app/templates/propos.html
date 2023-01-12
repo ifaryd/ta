@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+A propos
+{% endblock title %}
+
+{% block content %}
+<main>
+    <!--? slider Area Start-->
+    <div class="slider-area ">
+        <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="{% static 'img/hero/about.jpg' %}">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap">
+                            <h2>A Propos</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="accueil">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="#">A propos</a></li> 
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider Area End-->
+    <!--? About Area Start -->
+    <div class="about-low-area section-padding30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-caption mb-50">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-35">
+                            <span>A propos de nous</span>
+                            <h2>Des Solutions Logistiques Et De Transport Sûres Qui Vous Ferons Gagner Un Temps Précieux !</h2>
+                        </div>
+                        <p>TA+ mettant l’accent sur le professionnalisme. A cet effet, elle a mis en place une structure dynamique basée sur la réactivité et la promptitude à répondre aux besoins de ses clients.<br>Elle compte en son sein des conducteurs d’engins expérimentés.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <!-- about-img -->
+                    <div class="about-img ">
+                        <div class="about-font-img">
+                            <img src="{% static 'img/gallery/about2.png' %}" alt="">
+                        </div>
+                        <div class="about-back-img d-none d-lg-block">
+                            <img src="{% static 'img/gallery/about1.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h3 class="mb-20">Nos valeurs</h3>
+        <div class="">
+            <ul class="unordered-list">
+                <li>Assistance</li>
+                <li>Rigueur</li>
+                <li>Professionalisme</li>
+                
+            </ul>
+        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+   
+</main>
+{% endblock content %}
