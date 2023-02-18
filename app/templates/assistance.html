@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Assistance automobile
+{% endblock title %}
+
+{% block content %}
+<div class="team-area section-padding30">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-70">
+                    <span>Assistance automobile</span>
+                    <h2>
+                        Vous serez secouru en cas de panne de votre véhicule </h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/depan.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Depannage</p> 
+                        </div>
+                    
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/remor.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Remorquage</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/track.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Suivis de vehicule immobilisé</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+           
+            
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+

@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Service garage
+{% endblock title %}
+
+{% block content %}
+<div class="team-area section-padding30">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-70">
+                    <span>Service garage</span>
+                    <h2>
+                        Nous offrons un service rapide et de qualité dans les domaines de la mécanique générale, la climatisation, l'électricité, la carrosserie, la peinture etc...</h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/pein.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Peinture</p> 
+                        </div>
+                    
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/tol.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Tôlerie</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/clim.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Climatisation</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/elec.png' %}" alt="">
+                        <div class="team-caption">
+                            <p>Electricité</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/meca.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Mécanique générale</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/scan.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Scanner</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+

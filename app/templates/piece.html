@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Pièce automobile
+{% endblock title %}
+
+{% block content %}
+<div class="team-area section-padding30">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-70">
+                    <span>Pièce automobile</span>
+                    <h2>
+                        Des pièces automobile de qualité neuves ou d'occasion</h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/frein.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Disque de frien & étrier</p> 
+                        </div>
+                    
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/bougie.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Bougie d'allumage</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/sus.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Suspension & direction</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/em.avif' %}" alt="">
+                        <div class="team-caption">
+                            <p>Embreyage & transmission</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/echap.avif' %}" alt="">
+                        <div class="team-caption">
+                            <p>Pièce d'echappement</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/feu.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Feux avant et arrière</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+

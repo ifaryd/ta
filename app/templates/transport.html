@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Transport
+{% endblock title %}
+
+{% block content %}
+<div class="team-area section-padding30">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-70">
+                    <span>Transport</span>
+                    <h2>Nous avons différents type des véhicules</h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/semi.jpg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Porte char</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/truck.jpg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Transport de marchandise</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/ben.jpg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Camion benne</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/ford.webp' %}" alt="">
+                        <div class="team-caption">
+                            <p>Déménagement</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/elantra.jpg' %}" alt="">
+                        <div class="team-caption">
+                            <p>location de véhicule</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/mini.jpg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Mini-bus</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+

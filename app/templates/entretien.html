@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Entretien
+{% endblock title %}
+
+{% block content %}
+<div class="team-area section-padding30">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-70">
+                    <span>Entretien</span>
+                    <h2>
+                        L'entretien de la voiture consiste à examiner, à intervalles réguliers, les différents composants du véhicule.</h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/pneu.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Pneumatique</p> 
+                        </div>
+                    
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/visite.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Préparation de visite technique</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/air.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Remplacement de filtre à air</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/hui.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Remplacement de filtre à huile</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/deta.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Pièces détachées</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-team mb-30 text-center">
+                    <div class="team-img">
+                        <img src="{% static 'img/access.jpeg' %}" alt="">
+                        <div class="team-caption">
+                            <p>Accesoire automobile</p> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+
